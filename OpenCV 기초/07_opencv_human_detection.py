@@ -24,7 +24,7 @@ while True:
     # minNeighbors를 높여주면 검출률이 상승하나 오탐지율도 상승
     faces = face_cascade.detectMultiScale(gray, scaleFactor= 1.5, minNeighbors=3, minSize=(20,20))
     eyes = eye_cascade.detectMultiScale(gray, scaleFactor= 1.5, minNeighbors=3, minSize=(10,10))
-    print(faces)
+    # print(faces)
     
     # 찾은 얼굴이 있으면
     # 얼굴 영역을 영상에 사각형으로 표시
